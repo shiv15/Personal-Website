@@ -1,8 +1,5 @@
-div{
-    justify-content: center;  
-
-}
 .App {
+    justify-content: center;
     text-align: center;
 }
 
@@ -21,8 +18,13 @@ div{
     }
 }
 
+.contacts, .About, .Resume, .Blog{
+    padding-left: 75px;
+    text-align: left;
+}
+
 .App-header {
-    background-color: rgb(235, 215, 197);   
+    background-color: rgb(235, 215, 197);
     min-height: 70vh;
     display: flex;
     flex-direction: column;
@@ -41,7 +43,7 @@ div{
     }
 }
 
-a {
+.nav-bar a {
     padding-left: 100px;
     color: rgb(77, 16, 1);
 }
