@@ -18,7 +18,7 @@ const RouterMain = () => {
                         >
                             About
                         </Link>
-                        <Link className={styles.menu}
+                        <Link
                             to="/contact"
                         >
                             Contact
@@ -45,7 +45,7 @@ const RouterMain = () => {
                 
                 <Switch>
                     <Route path="/about">
-                        <About style={{Color:'blue'}}/>
+                        <About />
                     </Route>
                     <Route path="/contact">
                         <Contact />
