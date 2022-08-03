@@ -1,8 +1,5 @@
 import { Link, BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import React from "react";
-
-import styles from "./Router.css"
-
 import About from "../About";
 import Blog from "../Blog";
 import Contact from "../Contact";
