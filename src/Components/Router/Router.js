@@ -1,8 +1,5 @@
 import { Link, BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import React from "react";
-
-import styles from "./Router.css"
-
 import About from "../About";
 import Blog from "../Blog";
 import Contact from "../Contact";
@@ -18,7 +15,7 @@ const RouterMain = () => {
                         >
                             About
                         </Link>
-                        <Link className={styles.menu}
+                        <Link
                             to="/contact"
                         >
                             Contact
@@ -45,7 +42,7 @@ const RouterMain = () => {
                 
                 <Switch>
                     <Route path="/about">
-                        <About style={{Color:'blue'}}/>
+                        <About />
                     </Route>
                     <Route path="/contact">
                         <Contact />
