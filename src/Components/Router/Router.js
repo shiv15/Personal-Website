@@ -4,6 +4,7 @@ import About from "../About";
 import Blog from "../Blog";
 import Contact from "../Contact";
 import Resume from "../Resume";
+import Projects from "../Projects";
 
 const RouterMain = () => {
     return (
@@ -30,6 +31,11 @@ const RouterMain = () => {
                         >
                             Blog
                         </Link>
+                        <Link
+                            to="/projects"
+                        >
+                            Projects
+                        </Link>
                     </div>
                     <div className="inline-display">
                     <header className="App-header">
@@ -52,6 +58,9 @@ const RouterMain = () => {
                     </Route>
                     <Route path="/blog">
                         <Blog />
+                    </Route>
+                    <Route path="/projects">
+                        <Projects />
                     </Route>
                 </Switch>
                 </div>
